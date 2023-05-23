@@ -1,0 +1,44 @@
+{
+  "name": "Steve",
+  "age": 26,
+  "level": 1,
+  "damage": 10,
+  "defense": 5,
+  "health": 100,
+  "dodgeChance": 0,
+  "experience": 0,
+  "experienceToNextLevel": 100,
+  "gold": 200,
+  "inventory": [
+    {
+      "name": "Sword",
+      "damage": 10,
+      "defense": 0,
+      "health": 0,
+      "dodgeChance": 0,
+      "type": "weapon",
+      "itemImage": "",
+      "equipped": true
+    },
+    {
+      "name": "Shield",
+      "damage": 0,
+      "defense": 5,
+      "health": 0,
+      "dodgeChance": 0,
+      "type": "armor",
+      "itemImage": "",
+      "equipped": true
+    },
+    {
+      "name": "Potion",
+      "damage": 0,
+      "defense": 0,
+      "health": 10,
+      "dodgeChance": 0,
+      "type": "potion",
+      "itemImage": "",
+      "equipped": true
+    }
+  ]
+}

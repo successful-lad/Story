@@ -1,0 +1,59 @@
+{
+  "1": {
+    "title": "Начало истории",
+    "description": "В средневековой деревушке жил мальчик по имени Алекс. Он был очень любознателен и всегда хотел узнать больше о мире, окружающем его. Он был также очень отважным и мечтал о приключениях, какие бы опасности не поджидали его на пути.\n\nОднажды утром, Алекс услышал о нападении разбойников на деревню в нескольких милях от него. Он решил отправиться на поиски приключений и помочь защитить свою родную деревню. Но на пути к деревне, он столкнулся с выбором: пойти напрямик через лес, или обойти его по дороге, которая займет гораздо больше времени.",
+    "locationImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjdk6jGz4_oNUAu72DOyO3SwA5h18q59QLDg&usqp=CAU",
+    "actions": {
+      "left": {
+        "type": "leftAction",
+        "title": "Пройти через лес",
+        "previewImage": "https://cdn.discordapp.com/attachments/1008571138361790464/1104340252505686026/I_want_to_know_more_pixel_art_wolf_among_the_tree_749502b7-4efd-4e75-b955-8e6c3ad678cb.png",
+        "description": "Вы решили пройти через лес. Проходя через лес, на вас напал волк. Ну ничего, вы ведь все равно хотели размяться.",
+        "locationImage": "https://cdn.discordapp.com/attachments/1008571138361790464/1104340252505686026/I_want_to_know_more_pixel_art_wolf_among_the_tree_749502b7-4efd-4e75-b955-8e6c3ad678cb.png",
+        "experience": 100,
+        "nextSceneNum": 2,
+        "loot": {
+          "gold": 100,
+          "experience": 100,
+          "items": [
+            {
+              "name": "Меч",
+              "description": "Меч, который вы нашли в лесу",
+              "image": "sword.png"
+            }
+          ]
+        },
+        "enemies": [
+          {
+            "name": "Волк",
+            "description": "Очень сильный волк",
+            "image": "https://thumbs.dreamstime.com/z/vector-pixel-art-wild-wolf-isolated-cartoon-vector-pixel-art-wild-wolf-114949003.jpg",
+            "health": 100,
+            "damage": 10,
+            "defense": 5,
+            "experience": 20
+          }
+        ],
+        "punishmentForFailure": {
+          "gold": 30,
+          "health": 30,
+          "message": "Вы потеряли 30 золота и 30 здоровья",
+          "todo": "может считать здоровье в бою а не тут"
+        }
+      },
+      "right": {
+        "type": "rightAction",
+        "title": "Обойти по дороге",
+        "previewImage": "",
+        "description": "Вы решили обойти по дороге. Вы потратили много времени, но в конце концов вы добрались до деревни. Вы смогли спасти деревню от нападения разбойников. Вы получаете 50 очков опыта.",
+        "locationImage": "",
+        "experience": 50,
+        "nextSceneNum": 2,
+        "loot": {
+          "experience": 100
+        }
+      }
+    }
+  }
+}
+
